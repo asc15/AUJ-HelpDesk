@@ -1,0 +1,126 @@
+.form {
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  justify-content: center;
+}
+
+.title {
+  font-size: 40px;
+  position: relative;
+  top: -110px;
+
+  color: #294470;
+}
+u {
+  color: #294470;
+}
+h6 {
+  font-size: 20px;
+  position: relative;
+  top: -70px;
+
+  color: #254579;
+}
+
+.inputContainer {
+  position: relative;
+
+  height: 45px;
+  width: 100%;
+  margin-bottom: 17px;
+}
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  
+  border: 1px solid #ffffff;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+/* Hide the placeholder texts (a) */
+
+::placeholder {
+  color: transparent;
+}
+.label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 0 4px;
+  background-color: linear-gradient(to right, #ffff66 10%, #3366cc 110%) hite;
+  color: rgb(90, 61, 61);
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+.login-btn {
+  display: block;
+  margin-left: auto;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(59, 83, 189);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.login-btn:hover {
+  background-color: #e6c718;
+  color: black;
+  transform: translateY(-2px);
+}
+.input:focus + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(124, 69, 124);
+}
+.input:focus {
+  border: 2px solid purple;
+}
+.input:not(:placeholder-shown) + .label {
+  top: -20px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+}
+.register-btn{
+  display: block;
+  margin-left: auto;
+  padding: 6px 10px;
+  border: none;
+  background-color: rgb(33, 209, 107);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 0px;
+  
+}
+a{
+  margin-top: 0px;
+  font-size:13px;
+}
+.welcome{
+  background-color: #294470;
+  justify-items: auto;
+}
+hr{
+  border: 1px solid #294470;
+}

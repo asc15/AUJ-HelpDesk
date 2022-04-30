@@ -1,0 +1,270 @@
+.side {
+  margin-top: 20px;
+  height: 50px;
+  width: fit-content;
+}
+.right {
+  margin-top: 45px;
+  margin-bottom: -100px;
+  height: 550px;
+  background-color: lavender;
+}
+.home {
+  background: #f05e0a url("home.png");
+}
+.profile {
+  background: #2cb32c url("user.png");
+}
+.pastq {
+  background: #a3d42f url("chat.png");
+}
+.selfq {
+  background: #922fd4 url("sellfq.png");
+}
+button:hover {
+  cursor: pointer;
+  background-image: none;
+  padding: 15px;
+}
+.home,
+.pastq,
+.profile,
+.selfq {
+  font-family: Arial, Verdana;
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 150px;
+  color: aliceblue;
+  padding-top: 70px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.ask {
+  background: teal url("plus.png");
+  font-family: Arial, Verdana;
+  background-position: 33px 8px;
+  background-repeat: no-repeat;
+  height: 175px;
+  width: 200px;
+  color: lavender;
+  padding-top: 140px;
+  font-weight: bolder;
+  font-size: 21px;
+  position: relative;
+  top: 170px;
+  left: 750px;
+}
+.qna-section {
+  padding: 55px;
+  margin-left: 400px;
+}
+.question-box {
+  overflow: hidden;
+  width: 570px;
+  height: 100px;
+  padding: 10px;
+}
+label {
+  display: block;
+  color: blue;
+}
+p {
+  color: green;
+}
+.submit-q-btn {
+  position: absolute;
+  left: 450px;
+  height: 50px;
+  width: 100px;
+  background-color: green;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+}
+.submit-q-btn:hover {
+  background-color: rgb(8, 179, 51);
+  padding: 0;
+  color: #fcfaf5;
+}
+.profile-info {
+  background-color: rgb(53, 150, 53);
+  padding: 170px;
+  border: 5px solid;
+}
+.description {
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+.changepassword {
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(252, 249, 249);
+  border-radius: 20px;
+  background-color: peru;
+}
+.logout {
+  background-color: red;
+  font-size: 20px;
+  color: #fcfaf5;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  right: 20px;
+}
+.welcome-back {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  color: #0251fc;
+  position: relative;
+  left: 70px;
+  bottom: 30px;
+}
+.info {
+  display: inline-block;
+  color: #fcfaf5;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+.view-profile {
+  position: relative;
+  left: 300px;
+  border: 5px solid;
+}
+.right-question-div {
+  height: 550px;
+  display: inline-block;
+  position: relative;
+  left: 550px;
+  top: 100px;
+}
+.accordion__button-custom {
+  background-color: #f96167;
+  color: #fce77d;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+}
+.accordion__panel {
+  padding: 20px;
+  animation: fadein 0.35s ease-in;
+  background: #fce77d;
+  color: #f96167;
+}
+.a-inline-block {
+  background-color: hsl(358, 93%, 68%);
+  display: inline-block;
+}
+.accordion__button-btn {
+  background-color: #f8a4a4;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+}
+.accordion__panel-cstm {
+  padding: 2px;
+  animation: fadein 0.35s ease-in;
+  background: #fce77d;
+  color: #f96167;
+  overflow: hidden;
+}
+
+.ans-box {
+  overflow: hidden;
+  height: 100px;
+  width: 400px;
+  border: none;
+  padding: 3px;
+}
+.ans-btn {
+  margin-top: 8px;
+  border: none;
+  border: 5px solid hsl(358, 93%, 68%);
+  border-radius: 5px;
+  background-color: #fce77d;
+  height: 40px;
+  width: auto;
+  font-size: 15px;
+  font-weight: bold;
+  color: hsl(358, 93%, 68%);
+}
+.ans-btn:hover {
+  padding: 0px;
+  background-color: rgb(249, 98, 103);
+  color: white;
+}
+.detail {
+  font-weight: bold;
+  font-size: 11px;
+  margin-right: 0px;
+  text-align: right;
+}
+hr {
+  border: 1px solid rgb(249, 98, 103);
+}
+.detail-heading{
+  text-align: right;
+  color: #444;
+  font-weight: bold;
+}
+.accordion__button-btn-2,.accordion__button-btn-3{
+  background-color: #49e42a;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+}
+.accordion__button-btn-3{
+  background-color: #a4dc20;
+}
+.btn-cntrl{
+  padding: 2px;
+}
+
+.edit-btn{
+  margin-top: 8px;
+  border: none;
+  border: 5px solid hsl(129, 88%, 42%);
+  border-radius: 5px;
+  background-color: #fce77d;
+  height: 40px;
+  width: auto;
+  font-size: 15px;
+  font-weight: bold;
+  color: hsl(129, 88%, 42%);
+}
+.edit-btn:hover {
+  padding: 0px;
+  background-color: hsl(129, 88%, 42%);
+  color: white;
+}
+
+.delete-btn{
+  margin-top: 8px;
+  border: none;
+  border: 5px solid hsl(0, 78%, 43%);
+  border-radius: 5px;
+  background-color: #fce77d;
+  height: 40px;
+  width: auto;
+  font-size: 15px;
+  font-weight: bold;
+  color: hsl(0, 78%, 43%);
+}
+.delete-btn:hover {
+  padding: 0px;
+  background-color: hsl(0, 98%, 50%);
+  color: white;
+}
